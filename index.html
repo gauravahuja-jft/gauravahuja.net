@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+
+
+    <meta charset="utf-8">
+    <meta name="description" content="Hello! I am Gaurav Ahuja, a 23 year old Developer, living in Delhi, India. I have an eye for detail and a passion for what I do.">
+    <meta name="keywords" content="Developer">
+    <meta name="author" content="Gaurav Ahuja">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/img/favicon/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/favicon/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/favicon/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/favicon/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/img/favicon/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/img/favicon/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/img/favicon/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/img/favicon/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="/img/favicon/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="/img/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="/img/favicon/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="/img/favicon/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="/img/favicon/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="&nbsp;"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="/img/favicon/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="/img/favicon/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="/img/favicon/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="/img/favicon/mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="/img/favicon/mstile-310x310.png" />
+
+
+    <meta property="og:title" content="Gaurav Ahuja | Developer">
+    <meta property="og:url" content="http://gauravahuja.net">
+    <meta property="og:image" content="/img/og_logo.jpg">
+    <meta property="og:site_name" content="Gaurav Ahuja | Developer">
+    <meta property="og:description" content="Hello! I am Gaurav Ahuja, a 23 year old Developer, living in New Delhi, India. I have an eye for detail and a passion for what I do.">    
+
+
+    <title>Gaurav Ahuja | Developer</title>
+    <link href="/img/favicon.ico" type="image/x-icon" rel="shortcut icon">
+    <link rel="stylesheet" href="/css/foundation.css">
+	<script src="/js/vendor/modernizr.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/font.css">
+    <link rel="stylesheet" href="/css/animate.css">
+    <link rel="stylesheet" href="/css/icon.css">
+    <link rel="stylesheet" type="text/css" href="/css/component.css">
+    <script src="/js/modernizr.custom.js"></script>
+
+    
+
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+
+
+   	<script type="text/javascript">
+     jQuery(document).ready(function($) {  
+      $(window).load(function(){
+        $('#preload_wrapper').fadeOut('slow',function(){$(this).remove();});
+      });
+
+      });
+    </script>
+
+
+    <script>
+        var didScroll;
+        var lastScrollTop = 0;
+        var delta = 2;
+        var navbarHeight = $('header').outerHeight();
+
+        $(window).scroll(function(event){
+            didScroll = true;
+        });
+
+        setInterval(function() {
+            if (didScroll) {
+                hasScrolled();
+                didScroll = false;
+            }
+        }, 250);
+
+        function hasScrolled() {
+            var st = $(this).scrollTop();
+            
+           
+            if(Math.abs(lastScrollTop - st) <= delta)
+                return;
+            
+           
+            if (st > lastScrollTop && st > navbarHeight){
+              
+                $('header').removeClass('nav-down').addClass('nav-up');
+            } else {
+               
+                if(st + $(window).height() < $(document).height()) {
+                    $('header').removeClass('nav-up').addClass('nav-down');
+                }
+            }
+            
+            lastScrollTop = st;
+        }
+        </script> 
+
+
+     <script type="text/javascript">
+
+        jQuery(window).scroll(function () {
+          if (jQuery(this).scrollTop() == 0) {
+            $('header').addClass('reachedTop');
+       
+          } else {
+            $('header').removeClass('reachedTop');
+          }
+        });
+     
+ 
+         
+      </script>
+
+
+
+      <script type="text/javascript">
+
+
+       jQuery(document).ready(function($) {  
+        
+                $("#guy").hover(
+                function () {
+                  $('#hi').addClass('animated jello');
+                },
+                function () {
+                  $('#hi').removeClass('animated jello');
+                }
+              );
+
+
+
+                $(".logo").hover(
+                function () {
+                  $('.logo span').addClass('animated bounce');
+                },
+                function () {
+                  $('.logo span').removeClass('animated bounce');
+                }
+              );
+
+
+
+
+
+             });    
+
+
+      
+      </script>
+
+</head>
+  <body>
+
+<div id="preload_wrapper">
+<div class="preloader animated zoomIn" id="preloader"></div>
+</div>
+
+  
+ <header class="nav-down reachedTop">
+    <div class="wrapper" id="wrapper">
+      <div class="row">
+
+
+         <div class="small-3  columns">
+
+          <a href="/#intro" class="logo">GAURAV AHUJA <span class="">.</span></a>            
+        </div>
+
+
+         <div class="small-5  columns">
+
+           <ul class="menu">
+                <li> <a href="/#me">me</a></li>
+                 <li> <a href="/#projects">projects</a></li>
+                  <li><a href="/#hello">say hello</a></li>
+           </ul>
+            
+        </div>
+
+
+
+      </div>
+    </div>
+
+  </header>
+
+  
+   <!-- ///////////////////////////// Start Intro Section ///////////////////////////// -->
+    
+    <section class="intro" id="intro"> 
+        <div class="row" id="middle_row">
+             <div class="medium-6  columns" style="text-align:center;position:relative;">
+                     
+                      <img src="img/guy.png" id="guy" class="guy" alt="guy">
+                      <img src="img/hi.png" id="hi" class="animated jello" alt="hi">
+                      
+                  
+
+
+             </div>
+
+             <div class="medium-6 columns">
+                   
+                        
+
+                        <section class="cd-intro">
+                          <h1 class="cd-headline clip is-full-width">
+                            <span class="design">I develop</span><br>
+                            <span class="cd-words-wrapper" style="width: 350.53px; overflow: hidden;">
+                              <b class="is-hidden">cool websites<span class="dot">.</span></b>
+                              <b class="is-visible">mobile apps<span class="dot">.</span></b>
+                             
+                            </span>
+                          </h1>
+                        </section> 
+
+                        <a href="/#me" class="btn"> Know more</a>
+
+
+             </div>
+
+            
+         </div>
+
+    </section>  
+
+
+    <!-- ///////////////////////////// End Intro Section ///////////////////////////// -->
+
+
+
+    
+    <!-- ///////////////////////////// Start About Section ///////////////////////////// -->
+
+    <section class="about" id="me">
+
+
+
+              <div class="row">
+
+                <div class="large-12">
+                      <h1>About me.</h1>
+                      <p>Hi again! I am Gaurav Ahuja, a 23 year old Developer, living in <a href="https://www.google.co.in/maps/place/New+Delhi,+Delhi/@28.7040592,77.1024902,9z/data=!4m2!3m1!1s0x390cfd5b347eb62d:0x52c2b7494e204dce" target="_blank">New Delhi</a>, India. I have an eye for detail and a passion for what I do. You can find my resume <a href="/gaurav_resume.docx" target="_blank">here</a>.</p>
+                </div>
+              </div>
+
+
+
+              <div class="row" style="margin-top: 20px;">
+
+                   <div class="medium-3 columns">
+                      <h2> Tools I use</h2>
+                   </div>
+
+
+                     <div class="medium-9  columns">
+                        <ul class="tools">
+
+
+                            
+                            <li class="eclipse"></li>
+                            <li class="ps"></li>
+
+
+                        </ul>
+                   </div>
+
+              </div>
+
+
+
+              <div class="row" style="margin-top: 20px;">
+
+                   <div class="medium-3 columns">
+                      <h2>Languages</h2>
+                   </div>
+
+
+                     <div class="medium-9  columns">
+                        <ul class="lang">
+
+                            <li>java</li>
+                            <li>html</li>
+                            <li>css</li>
+							<li>C#</li>
+
+
+                        </ul>
+                      
+                   </div>
+
+              </div>
+
+
+
+            
+             <div class="row" style="margin-top: 20px;">
+
+                   <div class="medium-3 columns">
+                      <h2>Operating Systems</h2>
+                   </div>
+
+
+                     <div class="medium-9  columns">
+                        <ul class="os">
+
+
+                            
+                            <li class="windows"></li>
+                            <li class="ubuntu"></li>
+                            <li class="android"></li>
+
+
+                        </ul>
+                   </div>
+
+              </div>
+              <div class="row" style="margin-top: 20px;margin-bottom: 77px;">
+
+                   <div class="medium-3 columns">
+                      <h2>During free time</h2>
+                   </div>
+
+
+                     <div class="medium-9  columns">
+                        <ul class="hobbies">
+
+                            <li class="music"></li>
+                            <li class="camera"></li>
+
+                            
+                        </ul>
+                   </div>
+
+              </div>
+
+
+    </section>
+
+
+
+
+    <!-- ///////////////////////////// End About Section ///////////////////////////// -->
+
+
+
+
+
+
+   <!-- ///////////////////////////// Start Projects Section ///////////////////////////// -->
+
+
+
+    <section class="projects" id="projects">
+
+       <div class="row">
+         
+          <h1>Projects.</h1>
+          <p>No project is too small</p>
+
+
+               
+            <div id="cbp-fwslider" class="cbp-fwslider">
+              <ul style="width: 600%; transition: transform 500ms ease; transform: translate3d(0%, 0px, 0px);">
+                   <li style="width: 16.6666666666667%;">
+
+                       <a href="/#" class="prjct_img"><img src="img/projects/1.png" style="width:50%;" alt="No Parking"></a>
+
+                       <h2 class="name">No Parking</h2>
+                       <p class="desc"> Allowing Socially Responsibe Parking.<br>Allows to resolve parking issues.</p>
+
+
+                    </li>
+
+
+                <li style="width: 16.6666666666667%;">
+
+                    <a href="/#" class="prjct_img"><img src="img/projects/2.png" style="width:70%;" alt="ThoughtBoard"></a>
+                      <h2 class="name">Thought Board</h2>
+                       <p class="desc">Share your thoughts with the world.<br>Share your creative side.</p>
+
+                  </li>
+
+
+                <li style="width: 16.6666666666667%;">
+                   <a href="/#" class="prjct_img"><img src="img/projects/3.png" style="width:70%;" alt="Wallpapers"></a>
+                      <h2 class="name">Wallpapers</h2>
+                       <p class="desc">Download wallpapers</p>
+
+                </li>
+
+
+               
+
+
+                 <li style="width: 16.6666666666667%;">
+                        <a href="/#" class="prjct_img"><img src="img/projects/5.jpg" style="width:70%;" alt="Dribbble App"></a>
+                      <h2 class="name">Dribbble App</h2>
+                       <p class="desc">Material Design concept for Android.</p>
+
+                </li>
+
+
+                 <li style="width: 16.6666666666667%;">
+                        <a href="/#" class="prjct_img"><img src="img/projects/4.png" style="width:70%;" alt="DIAS Connect"></a>
+                      <h2 class="name">DIAS Connect</h2>
+                       <p class="desc">Connecting college faculty and students.<br>Send notices and allow for discussions between the faculty and students.</p>
+
+                </li>
+
+
+                <li style="width: 16.6666666666667%;">
+                        <a href="/#" class="prjct_img"><img src="img/projects/6.jpg" style="width:70%;" alt="Dribbble Profile"></a>
+                    
+                       <a class="btn project" target="_blank" href="https://in.linkedin.com/pub/gaurav-ahuja/33/870/541">Visit now</a>
+
+                </li>
+
+
+                
+              </ul>
+            <nav><span class="cbp-fwprev" style="display: none;"></span><span class="cbp-fwnext"></span></nav><div class="cbp-fwdots"><span class="cbp-fwcurrent"></span><span class=""></span><span></span><span></span><span></span><span></span></div></div>
+
+      </div>
+
+
+
+    </section>
+
+
+    <!-- ///////////////////////////// End Projects Section ///////////////////////////// -->
+
+
+
+
+<!-- ///////////////////////////// Start Footer Section ///////////////////////////// -->
+
+
+    <section class="sayhello" id="hello">
+
+       <div class="row">
+         
+            <div class="large-6 columns" style="margin-left: 0;padding-left: 0;">
+                      <h1>Say hello.</h1>
+                      <p>I am available for freelancing. <br>Feel free to contact me.</p>
+                   </div>
+
+
+                     <div class="large-6  columns">
+                      <a href="mailto:hello@gauravahuja.net" class="email">hello@gauravahuja.net</a>
+
+                      <div style="clear:both"></div>
+
+                      <ul class="icons">
+
+                         <li> <a href="http://facebook.com/gaurav.ahuja.338" target="_blank" class="icon facebook"><span class="icon-facebook"></span></a></li>
+
+                          <li> <a href="http://twitter.com/gauravahuja91" target="_blank" class="icon twitter"><span class="icon-twitter"></span></a></li>
+
+                         
+
+                      </ul>
+
+                       <div style="clear:both"></div>
+
+                     
+
+                   </div>
+
+
+
+
+
+             
+
+
+      </div>
+
+
+
+
+
+
+
+    </section>
+
+
+ 
+
+
+
+<!-- ///////////////////////////// End Footer Section ///////////////////////////// -->
+
+
+
+     
+    <script src="/js/jquery.cbpFWSlider.min.js"></script>
+    <script>
+      $( function() {
+        
+        $( '#cbp-fwslider' ).cbpFWSlider();
+
+      } );
+    </script>
+
+     <script type="text/javascript" src="/js/jquery.easing.1.3.js"></script>
+
+     <script type="text/javascript">
+            
+             $(function() {
+                $('header a').bind('click',function(event){
+                    var $anchor = $(this);
+                    
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 1500,'easeInOutExpo');
+                    event.preventDefault();
+                });
+            });
+
+             $(function() {
+                $('#intro a').bind('click',function(event){
+                    var $anchor = $(this);
+                    
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 1500,'easeInOutExpo');
+                    event.preventDefault();
+                });
+            });
+
+        </script>
+
+
+
+  
+    <script src="/js/foundation.min.js"></script>
+     <script>
+      $(document).foundation();
+    </script>
+
+   <script src="/js/textRotate.js"></script>
+
+
+
+ <!-- //////// Google Analytics ////////// -->
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-66328587-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+
+
+ 
+
+  
+</body></html>
